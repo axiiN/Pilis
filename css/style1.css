@@ -8,18 +8,22 @@ html{
 }
 body{
     background: url('../img/bg.png') repeat-x #629d66;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 .container{
     background: white;
     margin:0 auto;
-    max-width: 800px;
-    width: 1200px;
+    width: 900px;
     text-align: justify;
+    height: 1000px;
 }
 
 .sidebar{
     float: left;
     height: 100vh;
+    margin: 15px 15px 0 0px;
+    
+    
 }
 
 .header{
@@ -31,4 +35,37 @@ body{
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     padding-top: 11%;
     font-size: 400%;
+}
+
+.pictures{
+    float: left;
+    margin-right: 20px;
+}
+
+.content{
+    margin: 15px;
+}
+
+ul{
+    list-style-type: none;
+   
+        
+}
+
+h3{
+    background-color: #003807;
+    color: white;
+    font-size: 15px;
+    
+}
+
+.block{
+    background: url('../img/img02.gif');
+    background-repeat: no-repeat;
+    background-position: right bottom;
+    background-color:#96a970;
+    width: 200px;
+    height: 200px;
+    margin: 0 0 20px 0;
+
 }

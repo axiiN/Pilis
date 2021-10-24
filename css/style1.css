@@ -13,4 +13,22 @@ body{
     background: white;
     margin:0 auto;
     max-width: 800px;
+    width: 1200px;
+    text-align: justify;
+}
+
+.sidebar{
+    float: left;
+    height: 100vh;
+}
+
+.header{
+    background: url('../img/logo1.jpg');
+    text-indent: 450px;
+    height: 240px;
+    text-transform: uppercase;
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding-top: 11%;
+    font-size: 400%;
 }

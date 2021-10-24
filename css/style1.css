@@ -14,13 +14,14 @@ body{
     background: white;
     margin:0 auto;
     width: 900px;
-    text-align: justify;
-    height: 1000px;
+    text-align:justify;
+    height: 1070px;
+    margin-top: 10px;
 }
 
 .sidebar{
     float: left;
-    height: 100vh;
+    height: 70%;
     margin: 15px 15px 0 0px;
     
     
@@ -28,13 +29,13 @@ body{
 
 .header{
     background: url('../img/logo1.jpg');
-    text-indent: 450px;
+    text-indent: 400px;
     height: 240px;
     text-transform: uppercase;
     color: white;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    padding-top: 11%;
-    font-size: 400%;
+    padding-top: 8%;
+    font-size: 500%;
 }
 
 .pictures{
@@ -68,4 +69,38 @@ h3{
     height: 200px;
     margin: 0 0 20px 0;
 
+}
+
+li{
+    text-indent: 15px;
+    margin: 10px 0 15px 0;
+}
+
+a{
+    color: darkolivegreen;
+    text-decoration: none;
+
+}
+
+.news{
+    height: 400px;
+    width: 790px;
+    line-height: 20px;
+}
+
+h2{
+    margin: 0 0 15px 0;
+}
+
+p{
+    color: grey;
+}
+
+.footer{
+    line-height: 15px;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    background-color: #003807;
+    color: white;
 }

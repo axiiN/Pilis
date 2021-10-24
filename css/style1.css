@@ -1,0 +1,16 @@
+*{
+    box-sizing: border-box;
+    padding:0;
+    margin:0;
+}
+html{
+    font-size:16px;
+}
+body{
+    background: url('../img/bg.png') repeat-x #629d66;
+}
+.container{
+    background: white;
+    margin:0 auto;
+    max-width: 800px;
+}
